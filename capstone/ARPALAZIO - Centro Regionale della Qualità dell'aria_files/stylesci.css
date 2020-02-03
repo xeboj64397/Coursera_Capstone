@@ -1,0 +1,294 @@
+/* --------------------------------------------------
+CSS Document For Leaves v1.0 - Anthonyy @ OSWD.org
+Modified by Matteo Morelli For ARPALAZIO - matteo.morelli @ arpalazio.it
+-------------------------------------------------- */
+
+/* CONTAINER */
+
+		#container {
+			width: 950px;
+			margin: 0 auto;
+			font-family: Verdana, Lucida Grande, Tahoma, Arial, Helvetica, sans-serif; /* Lucida Grande for the Macs, Tahoma for the PCs */
+			font-size: 11px;
+			line-height: 1.6em;
+			color: #666;
+			background-color: #FFF;
+			text-align: justify;
+		}
+		
+/* GENERAL MOJO AND MULA */
+		
+		h1 {
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: normal;
+			font-size: 32px;
+			color: #0061a6;
+			margin-bottom: 30px;
+			background-color: #FFF;
+		}
+		
+		h2 {
+			color: #666666;
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #FFF;
+		}
+		
+		a {
+			color:#0061a6;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color:#0061a6;
+			background-color: #F5F5F5;
+		}
+
+		/*
+		form {
+			float:right;
+			margin-top: -45px;
+			font-size: 9px;
+		}
+		*/
+		
+		input {
+			background-color: #FFF;
+			color: #999999;
+			border: 1px solid #CCC;
+			font-size: 11px;
+			padding: 3px;
+		}
+		
+		.button {
+			padding: 2px;
+		}
+		
+/* HEADER ELEMENTS */
+
+		#header {
+			border-bottom: 4px solid #0061a6;
+			padding-top: 10px;
+			clear: both;
+			margin-bottom: 10px;
+			background:  url("http://www.arpalazio.net/main/aria/img/banner.jpg") no-repeat center left;
+		}
+		
+
+		/* the slogan */
+		#header p { 
+			margin-top: -20px;
+			margin-left: 30px;
+			color: #999999;
+		}
+		
+		/* Right Menu */
+		#headerright {
+			float: right;
+			margin-top: -55px;
+			font-size: 13px;
+		}
+
+/* NAVIGATION ELEMENTS */
+		
+		/*Credits: Dynamic Drive CSS Library */
+		/*URL: http://www.dynamicdrive.com/style/ */
+		
+		.navigation {
+			text-align: left;
+		}
+		
+		.navigation ul{
+		z-index: 2;
+		margin-left: 0;
+		padding-left: 0;
+		list-style-type: none;
+		width: 150px; /* Width of Menu Items */
+		float: left;
+		}
+			
+		.navigation ul li{
+		position: relative;
+		}
+			
+		/*Sub level menu items */
+		.navigation ul li ul{
+		position: absolute;
+		width: 150px; /*sub menu width*/
+		top: 0;
+		visibility: hidden;
+		}
+		
+		/* Sub level menu links style */
+		.navigation ul li a{
+		display: block;
+		overflow: auto; /*force hasLayout in IE7 */
+		color: black;
+		text-decoration: none;
+		background: #fff;
+		padding: 1px 5px;
+		border-bottom: 1px solid #ccc;
+		}
+		
+		.navigation ul li a{
+		color: #0061a6;
+		}
+
+		.navigation ul li a:visited{
+		color: #0061a6;
+		}
+		
+		.navigation ul li a:hover{
+		background-color: #F5F5F5;
+		}
+		
+		.navigation .subfolderstyle{
+		background:  url("http://www.arpalazio.net/main/aria/img/arrowDoc.jpg") no-repeat center right;
+		}
+		
+			
+		/* Holly Hack for IE \*/
+		* html .navigation ul li { float: left; height: 1%; }
+		* html .navigation ul li a { height: 1%; }
+		/* End */
+		
+/* CONTENT ELEMENTS */
+
+		#content {
+			width: 562px;
+			margin-left: 180px;
+			margin-right: 200px;
+		}
+
+		
+/* SIDEBAR ELEMENTS */
+
+		#sidebar {
+			float: right;
+			width: 175px;
+		}
+		
+		#sidebar p {
+			padding-bottom: 10px;
+			border-bottom: 1px solid #DDDDDD;
+		}
+
+/* FOOTER ELEMENTS */
+
+		#footer {
+			margin-top: 20px;
+			clear: both;
+			background-color:#575352;
+			padding: 0px 5px 0px 5px;
+		}
+		
+		#footer p {
+			color:#89817f;
+			padding: 5px;
+		}
+		
+		#footer p a {
+			color: #89817f;
+			border-bottom: 1px dotted #89817f;
+		}
+		
+		#footer p a:hover {
+			color: #FFFFFF;
+			background-color:#575352;
+		}
+		
+/* CONTENT Table Design */
+#homeTable {
+	border: 0px solid #000000;
+	vertical-align: bottom;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	font-size:12px;
+	/*/*/line-height: 1.0em; /* */
+	width: 100%;
+ }
+
+#centerRowHomeTable {
+ 	text-align:center;
+}
+
+#sideRowHomeTable {
+	text-align:left;
+}
+		
+/* Table with one underline */
+	table.bottomline td{
+		border: 0px solid #000000;
+		border-bottom: 1px solid #DDDDDD;
+	}
+	
+/* ######### CSS for Shade Tabs. Remove if not using ######### */
+
+.shadetabs{
+padding: 3px 0;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: bold 12px Verdana;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs li{
+display: inline;
+margin: 0;
+}
+
+.shadetabs li a{
+text-decoration: none;
+position: relative;
+z-index: 1;
+padding: 3px 7px;
+margin-right: 3px;
+border: 1px solid #778;
+color: #2d2b2b;
+background: white url(http://www.arpalazio.net/main/aria/ajaxtabs/shade.gif) top left repeat-x;
+}
+
+.shadetabs li a:visited{
+color: #2d2b2b;
+}
+
+.shadetabs li a:hover{
+text-decoration: underline;
+color: #2d2b2b;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+position: relative;
+top: 1px;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+background-image: url(http://www.arpalazio.net/main/aria/ajaxtabs/shadeactive.gif);
+border-bottom-color: white;
+}
+
+.shadetabs li a.selected:hover{ /*selected main tab style */
+text-decoration: none;
+}
+
+		/* And they lived happily ever after. The End. */
+
+/* Style for nrt slideshow */
+.sliderbutton {float:left; width:32px; padding-top:134px}
+.sliderbutton img {cursor:pointer}
+.sliderbutton img:hover {background:#666}
+#slider {float:left; position:relative; overflow:auto; width:450px; height:550px; border:2px solid #fff; background:#fff}
+#slider ul {position:absolute; list-style:none; top:0; left:0}
+#slider li {float:left; width:450px; height:550px; padding-right:10px}
+
+.pagination {float:left; list-style:none; height:25px; margin:15px 0 0 32px}
+.pagination li {float:left; cursor:pointer; padding:5px 8px; background:#666; border:1px solid #999; margin:0 4px 0 0; text-align:center; color:#222}
+.pagination li:hover {background:#777; border:1px solid #bbb; color:#000}
+li.current {border:1px solid #ccc; background:#888}
+
+li#slidecontent {width:464px; height:270px; padding:15px 28px 15px 18px}
+#slidecontent h1 {font:22px Georgia,Verdana; margin-bottom:15px; color:#036}
+/* nrt slideshow style end here */
+
